@@ -15,7 +15,7 @@ An Android developer focused on making a positive impact in the community.
 		<img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" alt="firebase" width="40" height="40"/> </a>
 </p>
 
-- 🔭 In my free time, I'm working on these projects:
+- 🔭 In my free time, I'm currently working on:
 <p align="left"> 
 	<a href="https://play.google.com/store/apps/details?id=com.skorudzhiev.quizexplorer" target="_blank"> 
 		<img src="https://github.com/skorudzhiev/skorudzhiev/blob/main/assets/QuizExplorer.png" alt="quizexplorer" width="40" height="40"/> </a> 
