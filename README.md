@@ -15,8 +15,6 @@ An Android developer focused on making a positive impact in the community.
 		<img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" alt="firebase" width="40" height="40"/> </a>
 </p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=skorudzhiev&show_icons=true&locale=en" alt="skorudzhiev" /></p>
-
 - 🔭 In my free time, I'm working on these projects:
 <p align="left"> 
 	<a href="https://play.google.com/store/apps/details?id=com.skorudzhiev.quizexplorer" target="_blank"> 
