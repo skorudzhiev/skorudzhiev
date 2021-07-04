@@ -17,8 +17,6 @@ An Android developer focused on making a positive impact in the community.
 
 - 🔭 In my free time, I'm currently working on:
 <p align="left"> 
-	<a href="https://github.com/skorudzhiev/Cookery" target="_blank"> 
-		<img src="https://github.com/skorudzhiev/skorudzhiev/blob/main/assets/Cookery.svg" alt="quizexplorer" width="40" height="40"/> </a> 
 	<a href="https://play.google.com/store/apps/details?id=com.skorudzhiev.quizexplorer" target="_blank"> 
 		<img src="https://github.com/skorudzhiev/skorudzhiev/blob/main/assets/QuizExplorer.png" alt="quizexplorer" width="40" height="40"/> </a> 
 	<a href="https://play.google.com/store/apps/details?id=com.skorudzhiev.flockattack" target="_blank"> 
