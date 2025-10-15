@@ -1,8 +1,7 @@
-# .github/workflows/metrics.yml
 name: GitHub Metrics
 on:
   schedule:
-    - cron: "30 5 * * *"         # daily
+    - cron: "30 5 * * *"     # daily UTC
   workflow_dispatch:
 
 jobs:
@@ -15,48 +14,38 @@ jobs:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # ---- Pull in lots of core context (helps some plugins) ----
-          base: header, activity, community, repositories, metadata
+          # Keep the useful high-level info, drop the fluff
+          base: header, activity, repositories, metadata
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           config_timezone: Europe/Sofia
 
-          # ========== LANGUAGES (deeper scan, more categories, lower threshold) ==========
+          # ------------- LANGUAGES (show everything, no "recently-used") -------------
           plugin_languages: yes
-          plugin_languages_indepth: yes              # examines files instead of just repo topics
-          plugin_languages_sections: most-used       # add "recently-used" if you want a second bar
-          plugin_languages_limit: 30                 # show many
-          plugin_languages_threshold: 0%             # do not hide tiny slices
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used      # important: removes the "recently-used" section → fixes "No push activity found"
+          plugin_languages_limit: 50
+          plugin_languages_threshold: 0%            # don’t hide tiny languages
           plugin_languages_categories: programming, markup, data
-          plugin_languages_ignored: ""               # keep empty to include everything
-          # plugin_languages_skipped: repo1, repo2   # use this if you want to exclude noise repos
           plugin_languages_details: percentage, bytes-size, lines
+          plugin_languages_ignored: ""              # include everything
+          # plugin_languages_skipped: repo1,repo2   # add to exclude noise repos
 
-          # ========== ACHIEVEMENTS (fixes + more robust) ==========
-          plugin_achievements: yes
-          plugin_achievements_display: compact       # try "detailed" if you want text under badges
-          plugin_achievements_threshold: S
-          plugin_achievements_secrets: yes           # include private-scope achievements when token allows
-          # plugin_achievements_ignored: influencer  # example to hide badges you don’t care about
-
-          # ========== ACTIVITY GRAPH / HABITS / FOLLOW-UP (extra detail) ==========
+          # --------------------- HABITS (safer config to avoid error) ------------------
           plugin_habits: yes
-          plugin_habits_from: 200                    # days to analyse
+          plugin_habits_from: 365                   # analyze last 365 days
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
 
-          plugin_followup: yes                       # open/closed issues & PRs per repo
-          plugin_followup_sections: repositories
+          # -------------------- ACHIEVEMENTS (robust settings) ------------------------
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: S
+          plugin_achievements_secrets: yes          # include private-scope info
 
-          # Useful visuals similar to your screenshot
-          plugin_notable: yes                        # notable repos you contributed to
-          plugin_notable_from: organization, owner, collaborators
-          plugin_notable_repositories: yes
-
-          # Optional: stars, topics cloud, etc. (uncomment if you want more)
-          plugin_stars: yes
-          plugin_stars_limit: 6
-          plugin_topics: yes
-          plugin_topics_limit: 30
-          plugin_topics_mode: icons
+          # -------------------------- EXPLICITLY DISABLE ------------------------------
+          plugin_topics: no                         # removes "Starred topics"
+          plugin_stars: no                          # removes "Recently starred"
+          plugin_followup: no
+          plugin_notable: no
