@@ -1,51 +1,31 @@
 name: GitHub Metrics
 on:
   schedule:
-    - cron: "30 5 * * *"     # daily UTC
+    - cron: "30 5 * * *"
   workflow_dispatch:
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate metrics (public + private)
+      - name: Metrics (languages only – clean baseline)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Keep the useful high-level info, drop the fluff
-          base: header, activity, repositories, metadata
+          base: header, repositories, metadata
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           config_timezone: Europe/Sofia
 
-          # ------------- LANGUAGES (show everything, no "recently-used") -------------
+          # Languages: deep, inclusive, ONLY "most-used"
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_sections: most-used      # important: removes the "recently-used" section → fixes "No push activity found"
+          plugin_languages_sections: 'most-used'     # ensure recently-used is OFF
+          plugin_languages_recent_days: 0            # hard-disable recent activity path
+          plugin_languages_recent_load: 0            # ^
           plugin_languages_limit: 50
-          plugin_languages_threshold: 0%            # don’t hide tiny languages
+          plugin_languages_threshold: 0%             # show tiny langs
           plugin_languages_categories: programming, markup, data
           plugin_languages_details: percentage, bytes-size, lines
-          plugin_languages_ignored: ""              # include everything
-          # plugin_languages_skipped: repo1,repo2   # add to exclude noise repos
-
-          # --------------------- HABITS (safer config to avoid error) ------------------
-          plugin_habits: yes
-          plugin_habits_from: 365                   # analyze last 365 days
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # -------------------- ACHIEVEMENTS (robust settings) ------------------------
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: S
-          plugin_achievements_secrets: yes          # include private-scope info
-
-          # -------------------------- EXPLICITLY DISABLE ------------------------------
-          plugin_topics: no                         # removes "Starred topics"
-          plugin_stars: no                          # removes "Recently starred"
-          plugin_followup: no
-          plugin_notable: no
