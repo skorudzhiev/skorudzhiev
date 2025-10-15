@@ -8,24 +8,32 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Metrics (languages only – clean baseline)
+      - name: Generate metrics (languages deep scan only)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
 
+          # kill cached outputs to avoid stale "recently-used" text
+          config_cache: no
+          # show only essentials for now
           base: header, repositories, metadata
           repositories_forks: yes
           repositories_affiliations: owner, collaborator, organization_member
           config_timezone: Europe/Sofia
 
-          # Languages: deep, inclusive, ONLY "most-used"
+          # --- LANGUAGES: FORCE INDEPTH, DISABLE RECENT PATHS, RAISE LIMITS ---
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_sections: 'most-used'     # ensure recently-used is OFF
-          plugin_languages_recent_days: 0            # hard-disable recent activity path
-          plugin_languages_recent_load: 0            # ^
-          plugin_languages_limit: 50
-          plugin_languages_threshold: 0%             # show tiny langs
+          plugin_languages_sections: most-used        # only this section
+          plugin_languages_recent_days: 0             # force off recent activity
+          plugin_languages_recent_load: 0
+          plugin_languages_limit: 50                  # show lots
+          plugin_languages_threshold: 0%              # do not hide tiny languages
           plugin_languages_categories: programming, markup, data
           plugin_languages_details: percentage, bytes-size, lines
+
+          # avoid timeouts that cause silent fallbacks
+          plugin_languages_repositories_limit: 120    # scan enough repos
+          plugin_languages_analysis_timeout: 45       # seconds per repo
+          plugin_languages_analysis_timeout_repositories: 20
