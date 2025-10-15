@@ -15,7 +15,7 @@ Crafting meaningful software that empowers people and makes a positive impact �
 🎮 **[Pangolines](https://pangolines.vercel.app/)**  
 *A quirky 2D game inspired by Pang, featuring an armed pangolin and a ton of bubble-popping fun.*
 
-🗂️ **[SubKeep](https://chrome.google.com/webstore/detail/subkeep/)**  
+🗂️ **[SubKeep](https://chromewebstore.google.com/detail/subkeep/mhikglflelkigbdlaebmfoopkoejecic?authuser=0&hl=en)**  
 *A Chrome extension that supercharges Google Keep with nested folders and better organization.*
 
 ---
