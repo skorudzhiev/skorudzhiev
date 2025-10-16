@@ -1,6 +1,6 @@
 ## 馃憢 Hi there, I鈥檓 Stoyan  
 
-**Android Developer 路 Builder 路 Indie Hacker**  
+**Software Developer 路 Builder 路 Indie Hacker**  
 Crafting meaningful software that empowers people and makes a positive impact 馃尡  
 
 ![](https://github-profile-trophy.vercel.app/?username=skorudzhiev&theme=onestar&no-bg=true&margin-w=15)
@@ -23,11 +23,30 @@ Crafting meaningful software that empowers people and makes a positive impact 馃
 ### 鈿欙笍 Languages & Tools  
 
 <p align="left"> 
+  <!-- Mobile / Android -->
   <a href="https://developer.android.com" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/android/android-original.svg" alt="android" width="40" height="40"/></a>
   <a href="https://kotlinlang.org" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40"/></a>
   <a href="https://www.java.com/en/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
+
+  <!-- Web / Frontend -->
+  <a href="https://vuejs.org" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" alt="vuejs" width="40" height="40"/></a>
+  <a href="https://nextjs.org" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40" style="background-color:white;border-radius:5px;padding:3px;"/></a>
+  <a href="https://tailwindcss.com" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" width="40" height="40"/></a>
+
+  <!-- Desktop / System -->
+  <a href="https://tauri.app" target="_blank"><img src="https://github.com/tauri-apps/tauri/blob/dev/.github/icon.png" alt="tauri" width="40" height="40"/></a>
+  <a href="https://www.rust-lang.org" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/rust/rust-original.svg" alt="rust" width="40" height="40"/></a>
+
+  <!-- Cloud / Backend -->
   <a href="https://firebase.google.com/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" alt="firebase" width="40" height="40"/></a>
+  <a href="https://supabase.com" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/supabase/supabase-original.svg" alt="supabase" width="40" height="40"/></a>
+
+  <!-- Tools / Version Control -->
+  <a href="https://git-scm.com/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" alt="git" width="40" height="40"/></a>
+  <a href="https://github.com" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" alt="github" width="40" height="40"/></a>
+  <a href="https://vercel.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="vercel" width="40" height="40"/></a>
 </p>
+
 
 ---
 
