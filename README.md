@@ -65,16 +65,6 @@ Crafting meaningful software that empowers people and makes a positive impact �
 
 ---
 
-### 🧩 Fun Zone  
-
-<p align="left"> 
-  <a href="https://play.google.com/store/apps/details?id=com.skorudzhiev.quizexplorer" target="_blank"><img src="https://github.com/skorudzhiev/skorudzhiev/blob/main/assets/QuizExplorer.png" alt="quizexplorer" width="40" height="40"/></a> 
-  <a href="https://play.google.com/store/apps/details?id=com.skorudzhiev.flockattack" target="_blank"><img src="https://github.com/skorudzhiev/skorudzhiev/blob/main/assets/FlockAttack.svg" alt="flockattack" width="40" height="40"/></a> 
-  <a href="https://github.com/skorudzhiev/Cookery" target="_blank"><img src="https://github.com/skorudzhiev/skorudzhiev/blob/main/assets/Cookery.svg" alt="cookery" width="40" height="40"/></a>
-</p>
-
----
-
 ### 💬 Let’s Connect  
 
 🐦 [Twitter / X](https://x.com/StoyanBuilds) — where I build in public  
