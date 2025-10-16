@@ -34,28 +34,7 @@ Crafting meaningful software that empowers people and makes a positive impact ðŸ
 ## ðŸ“Š GitHub Stats Galore  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=skorudzhiev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skorudzhiev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"/>
-  <img src="https://github-contributor-stats.vercel.app/api?username=skorudzhiev&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Contributor Stats" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=skorudzhiev&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=skorudzhiev&theme=tokyonight" alt="Profile Details" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=skorudzhiev&theme=tokyonight" alt="Repos per Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=skorudzhiev&theme=tokyonight" alt="Most Commit Language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=skorudzhiev&theme=tokyonight" alt="Profile Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=skorudzhiev&theme=tokyonight&utcOffset=3" alt="Commits by Time" />
-</p>
-
-<p align="center">
-  <img src="https://ssr-contributions-svg.vercel.app/_/skorudzhiev?chart=calendar&format=svg&weeks=40&theme=purple&widget_size=small" alt="3D Contribution Calendar" />
+  <img src="./metrics.svg" alt="GitHub Achievements" />
 </p>
 ---
 
