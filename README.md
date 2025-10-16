@@ -9,7 +9,7 @@ Crafting meaningful software that empowers people and makes a positive impact �
 
 ### 🧭 What I’m Building  
 
-🚀 **[Green Compass](https://www.greencompass.app/)**  
+🌿 **[Green Compass](https://www.greencompass.app/)**  
 *A sustainability platform built for individuals who want to live more consciously — track, act, and grow your eco-impact.*
 
 🎮 **[Pangolines](https://pangolines.vercel.app/)**  
