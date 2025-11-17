@@ -50,13 +50,6 @@ Crafting meaningful software that empowers people and makes a positive impact �
 
 ---
 
-## 📊 GitHub Stats Galore  
-
-<p align="center">
-  <img src="./metrics.svg" alt="GitHub Achievements" />
-</p>
----
-
 ### ✨ A Bit About Me  
 
 - 🧑‍💻 Software Developer
