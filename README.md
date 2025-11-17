@@ -9,6 +9,9 @@ Crafting meaningful software that empowers people and makes a positive impact �
 
 ### 🧭 What I’m Building  
 
+🪾 **[GitGlow](https://gitglow.dev/)**  
+*Analytics tool for your Git projects*
+
 🌿 **[Green Compass](https://www.greencompass.app/)**  
 *A sustainability platform built for individuals who want to live more consciously — track, act, and grow your eco-impact.*
 
