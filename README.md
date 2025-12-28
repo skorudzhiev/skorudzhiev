@@ -12,14 +12,14 @@ Crafting meaningful software that empowers people and makes a positive impact �
 🪾 **[GitGlow](https://gitglow.dev/)**  
 *Analytics tool for your Git projects*
 
-🌿 **[Green Compass](https://www.greencompass.app/)**  
-*A sustainability platform built for individuals who want to live more consciously — track, act, and grow your eco-impact.*
+🗂️ **[SubKeep](https://subkeep.fyi))**  
+*A Chrome extension that supercharges Google Keep with nested folders and better organization.*
 
 🎮 **[Pangolines](https://pangolines.vercel.app/)**  
 *A quirky 2D game inspired by Pang, featuring an armed pangolin and a ton of bubble-popping fun.*
 
-🗂️ **[SubKeep](https://subkeep.fyi))**  
-*A Chrome extension that supercharges Google Keep with nested folders and better organization.*
+🌿 **[Green Compass](https://www.greencompass.app/)**  
+*A sustainability platform built for individuals who want to live more consciously — track, act, and grow your eco-impact.*
 
 ---
 
@@ -31,7 +31,11 @@ Crafting meaningful software that empowers people and makes a positive impact �
   <a href="https://kotlinlang.org" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40"/></a>
   <a href="https://www.java.com/en/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
 
-  <!-- Web / Frontend -->
+  <!-- More Languages -->
+  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
+  <a href="" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="js" width="40" height="40"/></a>
+
+  <!-- Web / Frontend Frameworks -->
   <a href="https://vuejs.org" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/vuejs/vuejs-original.svg" alt="vuejs" width="40" height="40"/></a>
   <a href="https://nextjs.org" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40" style="background-color:white;border-radius:5px;padding:3px;"/></a>
   <a href="https://tailwindcss.com" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" width="40" height="40"/></a>
@@ -56,7 +60,7 @@ Crafting meaningful software that empowers people and makes a positive impact �
 ### ✨ A Bit About Me  
 
 - 🧑‍💻 Software Developer
-- 💡 Passionate about building tools that *I* want to use   
+- 💡 Passionate about building tools that I want to use   
 - 🎯 Balancing code, creativity, and real-world impact  
 
 ---
