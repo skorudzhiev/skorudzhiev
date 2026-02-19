@@ -1,10 +1,7 @@
 ## 👋 Hi there, I’m Stoyan  
 
 **Software Developer · Builder · Indie Hacker**  
-Crafting meaningful software that empowers people and makes a positive impact 🌱  
-
-![](https://github-profile-trophy.vercel.app/?username=skorudzhiev&theme=onestar&no-bg=true&margin-w=15)
-
+Crafting meaningful software with care that empowers people to be free to do what they truly love. 
 ---
 
 ### 🧭 What I’m Building  
@@ -53,16 +50,6 @@ Crafting meaningful software that empowers people and makes a positive impact �
   <a href="https://github.com" target="_blank"><img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" alt="github" width="40" height="40"/></a>
   <a href="https://vercel.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" alt="vercel" width="40" height="40"/></a>
 </p>
-
-
----
-
-### ✨ A Bit About Me  
-
-- 🧑‍💻 Software Developer
-- 💡 Passionate about building tools that I want to use   
-- 🎯 Balancing code, creativity, and real-world impact  
-
 ---
 
 ### 💬 Let’s Connect  
