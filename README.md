@@ -1,7 +1,8 @@
 ## 👋 Hi there, I’m Stoyan  
 
 **Software Developer · Builder · Indie Hacker**  
-#### Crafting meaningful software with care that empowers people to be free to do what they truly love. 
+#### Building small products with big intent — helping people organize their lives, think clearly, and take control of their time.
+##### Turning ideas into products that create leverage, clarity, and freedom.
 ---
 
 ### 🧭 What I’m Building  
