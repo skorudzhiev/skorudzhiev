@@ -18,9 +18,6 @@
 🎮 **[Pangolines](https://pangolines.vercel.app/)**  
 *A quirky 2D game inspired by Pang, featuring an armed pangolin and a ton of bubble-popping fun.*
 
-🌿 **[Green Compass](https://www.greencompass.app/)**  
-*A sustainability platform built for individuals who want to live more consciously — track, act, and grow your eco-impact.*
-
 ---
 
 ### ⚙️ Languages & Tools  
