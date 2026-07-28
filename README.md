@@ -6,6 +6,8 @@
 ---
 
 ### 🧭 What I’m Building  
+📝 **[Continuum](https://cntnm.xyz/)**  
+*A local-first workspace for turning rough notes into live models*
 
 🪾 **[GitGlow](https://gitglow.dev/)**  
 *Analytics tool for your Git projects*
