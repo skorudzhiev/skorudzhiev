@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-labelledby="title description">
+  <title id="title">Language atlas for skorudzhiev</title>
+  <desc id="description">Aggregate GitHub Linguist statistics across 52 owned public and private repositories. TypeScript 59.2 percent, Python 7.8 percent, JavaScript 6.7 percent, Kotlin 5.3 percent, CSS 4.8 percent, HTML 4.8 percent, Java 4.4 percent, Rust 2.3 percent.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <clipPath id="language-bar">
+      <rect x="36" y="96" width="828" height="14" rx="7"/>
+    </clipPath>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#010409" flood-opacity="0.45"/>
+    </filter>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .eyebrow { fill: #8b949e; font-size: 12px; font-weight: 600; letter-spacing: 1.6px; }
+      .heading { fill: #f0f6fc; font-size: 27px; font-weight: 700; }
+      .summary { fill: #8b949e; font-size: 13px; }
+      .language { fill: #e6edf3; font-size: 15px; font-weight: 600; }
+      .detail { fill: #8b949e; font-size: 13px; font-variant-numeric: tabular-nums; }
+      .footer { fill: #6e7681; font-size: 12px; }
+    </style>
+  </defs>
+  <rect x="8" y="8" width="884" height="334" rx="16" fill="url(#background)" stroke="#30363d" filter="url(#shadow)"/>
+  <text class="eyebrow" x="36" y="40">CODE ACROSS MY REPOSITORIES</text>
+  <text class="heading" x="36" y="72">Language atlas</text>
+  <text class="summary" x="864" y="43" text-anchor="end">52 owned repositories · public + private</text>
+  <text class="summary" x="864" y="68" text-anchor="end">25 languages · 10.7 MiB classified</text>
+  <g clip-path="url(#language-bar)">
+    <rect x="36.00" y="96" width="490.41" height="14" fill="#3178c6"/>
+    <rect x="526.41" y="96" width="64.51" height="14" fill="#3572A5"/>
+    <rect x="590.93" y="96" width="55.67" height="14" fill="#f1e05a"/>
+    <rect x="646.60" y="96" width="43.99" height="14" fill="#A97BFF"/>
+    <rect x="690.59" y="96" width="40.09" height="14" fill="#663399"/>
+    <rect x="730.68" y="96" width="39.74" height="14" fill="#e34c26"/>
+    <rect x="770.42" y="96" width="36.67" height="14" fill="#b07219"/>
+    <rect x="807.09" y="96" width="19.34" height="14" fill="#dea584"/>
+    <rect x="826.44" y="96" width="37.56" height="14" fill="#6e7681"/>
+  </g>
+  <g transform="translate(36 151)">
+      <circle cx="7" cy="-5" r="6" fill="#3178c6"/>
+      <text class="language" x="24" y="0">TypeScript</text>
+      <text class="detail" x="390" y="0" text-anchor="end">59.2% · 6.4 MiB</text>
+    </g>
+    <g transform="translate(450 151)">
+      <circle cx="7" cy="-5" r="6" fill="#3572A5"/>
+      <text class="language" x="24" y="0">Python</text>
+      <text class="detail" x="390" y="0" text-anchor="end">7.8% · 857 KiB</text>
+    </g>
+    <g transform="translate(36 194)">
+      <circle cx="7" cy="-5" r="6" fill="#f1e05a"/>
+      <text class="language" x="24" y="0">JavaScript</text>
+      <text class="detail" x="390" y="0" text-anchor="end">6.7% · 740 KiB</text>
+    </g>
+    <g transform="translate(450 194)">
+      <circle cx="7" cy="-5" r="6" fill="#A97BFF"/>
+      <text class="language" x="24" y="0">Kotlin</text>
+      <text class="detail" x="390" y="0" text-anchor="end">5.3% · 585 KiB</text>
+    </g>
+    <g transform="translate(36 237)">
+      <circle cx="7" cy="-5" r="6" fill="#663399"/>
+      <text class="language" x="24" y="0">CSS</text>
+      <text class="detail" x="390" y="0" text-anchor="end">4.8% · 533 KiB</text>
+    </g>
+    <g transform="translate(450 237)">
+      <circle cx="7" cy="-5" r="6" fill="#e34c26"/>
+      <text class="language" x="24" y="0">HTML</text>
+      <text class="detail" x="390" y="0" text-anchor="end">4.8% · 528 KiB</text>
+    </g>
+    <g transform="translate(36 280)">
+      <circle cx="7" cy="-5" r="6" fill="#b07219"/>
+      <text class="language" x="24" y="0">Java</text>
+      <text class="detail" x="390" y="0" text-anchor="end">4.4% · 487 KiB</text>
+    </g>
+    <g transform="translate(450 280)">
+      <circle cx="7" cy="-5" r="6" fill="#dea584"/>
+      <text class="language" x="24" y="0">Rust</text>
+      <text class="detail" x="390" y="0" text-anchor="end">2.3% · 257 KiB</text>
+    </g>
+  <line x1="36" y1="309" x2="864" y2="309" stroke="#21262d"/>
+  <text class="footer" x="36" y="329">GitHub Linguist · byte-weighted · generated 2026-08-14</text>
+  <text class="footer" x="864" y="329" text-anchor="end">Aggregate only · private repository names are never published</text>
+</svg>
