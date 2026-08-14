@@ -1,0 +1,56 @@
+name: Update language stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-language-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Check private-repository token
+        id: token
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_STATS_TOKEN" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Add a PROFILE_STATS_TOKEN secret with read access to the repositories included in the banner. Keeping the existing snapshot."
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate aggregate language statistics
+        if: steps.token.outputs.configured == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: node scripts/generate-language-stats.mjs
+
+      - name: Run generator tests
+        if: steps.token.outputs.configured == 'true'
+        run: node --test tests/language-stats.test.mjs
+
+      - name: Commit refreshed assets
+        if: steps.token.outputs.configured == 'true'
+        run: |
+          if git diff --quiet -- assets/language-stats.svg assets/language-stats.json; then
+            echo "Language statistics are already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/language-stats.svg assets/language-stats.json
+          git commit -m "Refresh profile language stats"
+          git push

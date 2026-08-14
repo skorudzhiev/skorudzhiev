@@ -1,0 +1,166 @@
+{
+  "asOf": "2026-08-14",
+  "classifiedBytes": 11267529,
+  "languageCount": 25,
+  "languages": [
+    {
+      "bytes": 6673622,
+      "color": "#3178c6",
+      "name": "TypeScript",
+      "percentage": 59.2288
+    },
+    {
+      "bytes": 877872,
+      "color": "#3572A5",
+      "name": "Python",
+      "percentage": 7.7912
+    },
+    {
+      "bytes": 757613,
+      "color": "#f1e05a",
+      "name": "JavaScript",
+      "percentage": 6.7239
+    },
+    {
+      "bytes": 598684,
+      "color": "#A97BFF",
+      "name": "Kotlin",
+      "percentage": 5.3134
+    },
+    {
+      "bytes": 545547,
+      "color": "#663399",
+      "name": "CSS",
+      "percentage": 4.8418
+    },
+    {
+      "bytes": 540771,
+      "color": "#e34c26",
+      "name": "HTML",
+      "percentage": 4.7994
+    },
+    {
+      "bytes": 499043,
+      "color": "#b07219",
+      "name": "Java",
+      "percentage": 4.429
+    },
+    {
+      "bytes": 263202,
+      "color": "#dea584",
+      "name": "Rust",
+      "percentage": 2.3359
+    },
+    {
+      "bytes": 78287,
+      "color": "#DA5B0B",
+      "name": "Jupyter Notebook",
+      "percentage": 0.6948
+    },
+    {
+      "bytes": 77814,
+      "color": "#F05138",
+      "name": "Swift",
+      "percentage": 0.6906
+    },
+    {
+      "bytes": 70979,
+      "color": "#ff5a03",
+      "name": "Astro",
+      "percentage": 0.6299
+    },
+    {
+      "bytes": 60808,
+      "color": "#41b883",
+      "name": "Vue",
+      "percentage": 0.5397
+    },
+    {
+      "bytes": 34687,
+      "color": "#00B4AB",
+      "name": "Dart",
+      "percentage": 0.3078
+    },
+    {
+      "bytes": 32593,
+      "color": "#89e051",
+      "name": "Shell",
+      "percentage": 0.2893
+    },
+    {
+      "bytes": 28956,
+      "color": "#ff3e00",
+      "name": "Svelte",
+      "percentage": 0.257
+    },
+    {
+      "bytes": 28090,
+      "color": "#fcb32c",
+      "name": "MDX",
+      "percentage": 0.2493
+    },
+    {
+      "bytes": 25345,
+      "color": "#336790",
+      "name": "PLpgSQL",
+      "percentage": 0.2249
+    },
+    {
+      "bytes": 23765,
+      "color": "#f34b7d",
+      "name": "C++",
+      "percentage": 0.2109
+    },
+    {
+      "bytes": 19428,
+      "color": "#DA3434",
+      "name": "CMake",
+      "percentage": 0.1724
+    },
+    {
+      "bytes": 13409,
+      "color": "#012456",
+      "name": "PowerShell",
+      "percentage": 0.119
+    },
+    {
+      "bytes": 9175,
+      "color": "#701516",
+      "name": "Ruby",
+      "percentage": 0.0814
+    },
+    {
+      "bytes": 5219,
+      "color": "#867db1",
+      "name": "VBA",
+      "percentage": 0.0463
+    },
+    {
+      "bytes": 1425,
+      "color": "#555555",
+      "name": "C",
+      "percentage": 0.0126
+    },
+    {
+      "bytes": 1157,
+      "color": "#384d54",
+      "name": "Dockerfile",
+      "percentage": 0.0103
+    },
+    {
+      "bytes": 38,
+      "color": "#438eff",
+      "name": "Objective-C",
+      "percentage": 0.0003
+    }
+  ],
+  "login": "skorudzhiev",
+  "methodology": "GitHub Linguist language bytes aggregated across owned repositories",
+  "repositories": {
+    "archived": 0,
+    "forks": 0,
+    "private": 30,
+    "public": 22,
+    "total": 52
+  }
+}

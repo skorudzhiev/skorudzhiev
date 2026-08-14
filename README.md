@@ -3,6 +3,9 @@
 **Software Developer · Builder · Indie Hacker**  
 #### Building small products with big intent — helping people organize their lives, think clearly, and take control of their time.
 ##### Turning ideas into products that create leverage, clarity, and freedom.
+
+![Aggregate language statistics across my public and private repositories](./assets/language-stats.svg)
+
 ---
 
 ### 🧭 What I’m Building  
