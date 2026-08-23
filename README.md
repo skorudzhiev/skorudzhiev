@@ -18,9 +18,6 @@
 🗂️ **[SubKeep](https://subkeep.fyi))**  
 *A Chrome extension that supercharges Google Keep with nested folders and better organization.*
 
-🎮 **[Pangolines](https://pangolines.vercel.app/)**  
-*A quirky 2D game inspired by Pang, featuring an armed pangolin and a ton of bubble-popping fun.*
-
 ---
 
 ### ⚙️ Languages & Tools  
